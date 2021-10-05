@@ -9,7 +9,17 @@ function createAccount(pin, amount) {
       else {
         return balance;
       }
+    },
+    deposit(enteredPin, depositAmount) {
+      if (enteredPin !== correctPin) {
+        return 'Invalid PIN.'
+      }
+      else {
+        balance += depositAmount;
+        return `Succesfully deposited ${depositAmount}. Current balance: ${balance}.`
+      }
     }
+    
   }
 }
 
