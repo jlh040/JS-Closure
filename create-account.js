@@ -18,6 +18,11 @@ function createAccount(pin, amount) {
         balance += depositAmount;
         return `Succesfully deposited ${depositAmount}. Current balance: ${balance}.`
       }
+    },
+    withdraw(enteredPin, withdrawAmount) {
+      if (enteredPin !== correctPin) {
+        return 'Invalid PIN.';
+      }
     }
     
   }
