@@ -8,9 +8,9 @@
 
 ## Testing
 
-Paste the following in your terminal:
+Paste the following into your terminal:
 
 ```bash
-git clone https://github.com/jlh040/JS-Closure.git && npm install && jest
+git clone https://github.com/jlh040/JS-Closure.git && cd JS-closure && npm install && jest
 ```
 
