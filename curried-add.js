@@ -18,7 +18,3 @@ function curriedAdd(total) {
 };
 
 module.exports = { curriedAdd };
-
-// let firstAdder = curriedAdd(10)(7)
-
-// firstAdder(5)
